@@ -13,7 +13,8 @@ int main()
 {
     int x = 3, y = 9;
     swap(&x, &y); 
-    // Address of the variables which are going to have their values interchanged are required so that the pointer can point to the address which needs modification
+    // Address of the variables which are going to have their values interchanged are required so that the pointer can point to the address which needs modification.
     printf("After switching the values of the two variables: x = %d and y = %d\n", x, y); 
     return 0;
+
 }
